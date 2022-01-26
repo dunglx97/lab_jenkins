@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'mkdir dungngo1'
+                sh 'mkdir dungngo'
             }
         }
     }
