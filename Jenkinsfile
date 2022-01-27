@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 sshagent(['remote-ssh']) {
-					sh 'ssh -o StrictHostKeyChecking=no -l ubuntu 54.197.201.23 touch dung.txt '
+					sh 'ssh -o StrictHostKeyChecking=no -l ubuntu 18.204.218.201 touch dung.txt '
 				}
             }
         }
